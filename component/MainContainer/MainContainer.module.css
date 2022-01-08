@@ -1,0 +1,40 @@
+
+.MainContainer{
+
+   background-color:var(--card-background-color);
+   border-radius:5px;
+   min-height: 500px;
+   box-shadow: -2px 12px 20px 7px #00000014;       
+}
+
+
+
+.title h1{
+    text-align: center;
+    padding:1.3rem 0;
+    font-family: var(--font-family-roboto);
+    font-weight: 400;
+   background-color: var(--secondary-bg-color); 
+   color:rgb(245, 244, 244);
+}
+
+.sortBy{
+   margin-top:2rem;
+   display: flex;
+   justify-content: center
+}
+
+.sortBy select{
+   padding: 0.5rem 0.5rem;
+   background-color:#7846ff;
+   color:rgb(255, 255, 255);
+   outline:none;
+   border-radius: 5px;
+}
+
+.sortBy select option{
+    background-color:#f7f1ef;
+    color:#000;
+    border:none
+}
+

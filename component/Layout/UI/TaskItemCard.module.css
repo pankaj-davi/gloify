@@ -1,0 +1,63 @@
+.card{
+    background-color: #7846ff;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    color: #f1ecec;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 10px 10px 10px #000;
+    box-shadow: 2px 4px 10px 2px #00000026;
+    max-width: 300px;
+}
+
+.card h6{
+    font-size:0.8rem;
+    font-family:var(--font-family-poppins);
+    word-wrap: break-word;
+    font-weight:300;
+}
+
+.card span{
+    font-size: 0.7rem;
+    padding:0.3rem 0.7rem;
+    border-radius: 3px;
+}
+
+.red{
+    background-color:red;
+}
+
+.green{
+    background-color:green;
+}
+
+.blue{
+    background-color:blue;
+}
+
+.card .details{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:0.5rem 0;
+}
+
+.card .details p{
+    font-size:0.7rem
+}
+
+.icons{
+    cursor: pointer;
+    text-align:end;
+}
+
+
+
+.icons .delete > * {
+    font-size:1.2rem;
+    color:rgb(255, 255, 255);
+    
+}
+
+.icons .edit > * {
+    font-size:1.2rem;
+}
